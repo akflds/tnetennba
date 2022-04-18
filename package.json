@@ -1,0 +1,23 @@
+{
+  "name": "tnetennba",
+  "version": "1.0.0",
+  "description": "word guessing game",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akflds/tnetennba.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/akflds/tnetennba/issues"
+  },
+  "homepage": "https://github.com/akflds/tnetennba#readme",
+  "devDependencies": {
+    "jest": "^27.5.1",
+    "word-list": "^3.1.0"
+  }
+}
