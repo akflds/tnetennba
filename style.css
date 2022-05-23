@@ -1,0 +1,40 @@
+html {
+  font-family: sans-serif;
+}
+.game-board {
+  display: grid;
+  grid-template-rows: 125px;
+  grid-template-columns: 125px 125px 125px 125px 125px 125px 125px 125px 125px;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+}
+.box {
+  background: #444;
+  border: 1px solid #555;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #aaa;
+}
+
+p {
+  font-size: 15vh;
+  color: whitesmoke;
+}
+
+#restart-game {
+  margin-top: 10px;
+  width: 100%;
+}
+
+.get-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.get-button {
+  width: 50%;
+}
