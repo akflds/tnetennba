@@ -1,6 +1,6 @@
 # tnetennba
 
-A word guessing game. Given 8 letters, find as many valid 5-8 words as you can.  
+A word guessing game, like that one on TV. Select a bunch of vowels and consonants, then try to make the longest word you can.
 
 ## "tnetennba"?!
 
