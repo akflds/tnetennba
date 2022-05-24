@@ -35,7 +35,6 @@ const consonants = Object.keys(distConsts)
     return letter.repeat(distConsts[letter]).split("");
   })
   .flat()
-  .sort(() => Math.random() - 0.5)
   .join("");
 
 const vowels = Object.keys(distVowels)
@@ -43,7 +42,6 @@ const vowels = Object.keys(distVowels)
     return letter.repeat(distVowels[letter]).split("");
   })
   .flat()
-  .sort(() => Math.random() - 0.5)
   .join("");
 
 const getRandomLetter = (str) => {
