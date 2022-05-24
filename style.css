@@ -1,7 +1,7 @@
 html {
   font-family: sans-serif;
 }
-.game-board {
+#game-board {
   display: grid;
   grid-template-rows: 125px 125px;
   grid-template-columns: 125px 125px 125px 125px 125px 125px 125px 125px 125px;

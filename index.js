@@ -62,7 +62,6 @@ const clearBoard = () => {
 const updateBoard = (letters) => {
   const boxes = [...document.querySelectorAll(".box")];
   // so bad!
-  console.log(boxes);
   for (let i = 0; i < boxes.length; i++) {
     if (letters[i]) {
       if (boxes[i].childNodes.length === 0) {
@@ -72,9 +71,28 @@ const updateBoard = (letters) => {
       }
     }
   }
+
   if (letters.length === 9) {
     document.getElementById("consonant-btn").disabled = true;
     document.getElementById("vowel-btn").disabled = true;
+    let input = "";
+    document.addEventListener("keypress", (event) => {
+      // if event key === return
+
+      input += event.key;
+      const inputTiles = document.querySelectorAll(".input-tile");
+      for (let i = 0; i < inputTiles.length; i++) {
+        if (input[i] && inputTiles[i].childNodes.length === 0) {
+          const tile = document.createElement("p");
+          tile.innerText = event.key.toUpperCase();
+          inputTiles[i].appendChild(tile);
+        }
+      }
+    });
+    if (input.length === 9) {
+      document.removeEventListener("keypress");
+      //trigger check
+    }
   }
 };
 
