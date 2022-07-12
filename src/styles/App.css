@@ -1,0 +1,47 @@
+:root {
+  --background: white;
+  --text-primary: black;
+  --text-secondary: grey;
+  --rack: royalblue;
+}
+
+[data-theme="dark"] {
+  --background: black;
+  --text-primary: white;
+  --text-secondary: grey;
+  --rack: grey;
+}
+
+.App {
+  color: var(--text-primary);
+  background-color: var(--background);
+  font-size: large;
+  font-weight: bold;
+  padding: 20px;
+  transition: all 0.5s;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  bottom: 0px;
+}
+
+button {
+  color: var(--text-primary);
+  background-color: var(--background);
+  border: 5px var(--text-primary) solid;
+  transition: all 0.5s;
+  padding: 5px;
+  margin: 10px 0px;
+  font-size: 1rem;
+  font-weight: 700;
+  padding: 0.8rem;
+}
+
+.theme-toggle {
+  font-size: 1.5rem;
+}

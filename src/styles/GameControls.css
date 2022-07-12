@@ -1,0 +1,14 @@
+.get-letter-btns {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.get-letter-btns button {
+  width: 49%;
+  padding: 10px;
+}
+
+.todo {
+  font-size: x-small;
+}
