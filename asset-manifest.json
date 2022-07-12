@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/tnetennba/static/css/main.a654d0c9.css",
+    "main.js": "/tnetennba/static/js/main.3cda8313.js",
+    "index.html": "/tnetennba/index.html",
+    "main.a654d0c9.css.map": "/tnetennba/static/css/main.a654d0c9.css.map",
+    "main.3cda8313.js.map": "/tnetennba/static/js/main.3cda8313.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a654d0c9.css",
+    "static/js/main.3cda8313.js"
+  ]
+}
