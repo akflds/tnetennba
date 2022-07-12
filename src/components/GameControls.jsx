@@ -46,7 +46,7 @@ const GameControls = ({
         <>
           <p>Your starting letters were: {letters}.</p>
           <p>You guessed: {guess}</p>
-          <p className="todo">{checkLongerWords()}</p>
+          {/* <p className="todo">{checkLongerWords()}</p> */}
         </>
       )}
       <RestartButton
